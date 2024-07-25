@@ -1,0 +1,40 @@
+/* .high-width-container {
+    width: 800px;
+    height: 600px;
+    margin-left: 150px;
+  }
+  .materialinfo{
+    margin-top: 50px;
+  }
+   */
+   /* .has-mask {
+    position: absolute;
+    clip: rect(10px, 150px, 130px, 10px);
+} */
+ 
+.designing{
+    width: 50%;
+   
+    margin-left: 15%;
+    
+ }
+ .ddd{
+    color: #6A41E5;
+ }
+
+ .uploadMaterialBtn{
+  background-color: #6A41E5;
+  width: 8%;  
+
+  border: none;
+  border-radius: 20px;
+  font-size: 1rem;
+  padding: 5px;
+
+ }
+
+ .uploadMaterialdiv{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+ }

@@ -1,0 +1,52 @@
+.crsinfo{
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-color: rgba(128, 128, 128, 0.17);
+    margin: 0; 
+    width: 100vw;
+    height: 100vh;
+}
+
+/* .colorofinfo{
+    background-color: rgba(0, 0, 255, 0.41)
+} */
+
+.hellocontainer {
+    display: flex;
+    align-items: center; 
+  }
+  
+  .hellowords {
+    flex: 1; 
+  }
+  
+  .helloimg {
+    
+    width: 400px; 
+  }
+  .sourceof{
+    /* margin-top: 20px; */
+    margin-left: 220px;
+    width: 1350px;
+    
+    padding: 150px;
+    /* margin-bottom: 50px; */
+    
+}
+
+.infocrs{
+    /* margin-top:20px; */
+}
+  
+.buttoning{
+    width: 120px;
+    height: 60px;
+    
+
+}
+
+.passkeyContainer{
+  margin-left: 5%;
+  
+}
+

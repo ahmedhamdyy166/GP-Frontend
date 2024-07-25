@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.Loginpage {
+  display: flex;
+  height: 100vh;
+}
+
+.left_content {
+  flex: 1;
+  background-color: #1C1D21;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right_content {
+  flex: 1;
+  background-color: #6A41E5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.form_content {
+  max-width: 500px;
+  width: 100%;
+  text-align: center;
+  padding: 50px 20px; /* Increase padding to increase height */
+  background-color: #2C2F33;
+  border-radius: 10px;
+}
+
+.form_content h1 {
+  font-size: 2.5rem; /* Adjust font size if needed */
+  color: #fff;
+}
+
+.form_content p {
+  font-size: 1rem; /* Adjust font size if needed */
+  margin-bottom: 10px; /* Increase margin-bottom to increase spacing */
+  color: #fff;
+
+}
+.loginAlert{
+  margin-top: 10px;
+  font-size: 12px;
+  margin-right: 330px;
+
+}
+
+
+
+.inputbox {
+  margin: 20px 0;
+  position: relative;
+}
+
+.inputbox input {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #444;
+  color: #fff;
+  font-size: 1.2rem; /* Adjust font size if needed */
+}
+
+.inputbox input::placeholder {
+  color: #ccc;
+}
+
+.login_btn {
+  width: 100%;
+  padding: 13px;
+  border: none;
+  border-radius: 20px;
+  background-color: #6A41E5;
+  color: #fff;
+  font-size: 1.2rem; /* Adjust font size if needed */
+  cursor: pointer;
+   
+}
+
+.signup_btn{
+  width: 20%;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  background-color: #888;
+  color: #fff;
+  font-size: 1.2rem; /* Adjust font size if needed */
+  cursor: pointer;
+  margin-left: 10px;
+
+}
+
+.forgot-password-btn {
+  color: #888;
+  text-decoration: none;
+  font-size: 1.2rem; /* Adjust font size if needed */
+  margin-bottom: 20px; /* Increase margin-bottom to increase spacing */
+  margin-right: 310px;
+}
+
+.dontHaveAccount-btn {
+  margin-top: 40px;
+  color: #888;
+  font-size: 1.3rem; /* Adjust font size if needed */
+}
+
+
+
+.img_content img {
+  max-width: 100%;
+}

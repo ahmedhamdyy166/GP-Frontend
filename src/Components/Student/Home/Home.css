@@ -1,0 +1,37 @@
+.trash-icon, .showDescBtn, .check-icon {
+    font-size: 1.5rem;
+    transition: color 0.2s;
+    cursor: pointer;
+}
+
+.trash-icon:hover {
+    color: red;
+}
+
+.trash-icon:active, .showDescBtn:active, .check-icon:active {
+    color: darkred;
+}
+
+.showDescBtn:hover {
+    color: gray;
+}
+.check-icon:hover{
+    color: green;
+}
+.showDescBtn {
+    color: black; /* Ensure initial color for the show icon is black */
+}
+
+/* Home.css */
+.large-circle {
+    width: 2rem;  /* 32px */
+    height: 2rem;  /* 32px */
+    padding: 0.5rem;  /* 8px */
+    border-width: 0.375rem;  /* 6px */
+}
+
+.markCircle{
+
+    font-size: large;
+}
+

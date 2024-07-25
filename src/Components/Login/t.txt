@@ -1,0 +1,840 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #1C1D21;
+}
+
+.Loginpage {
+  display: flex;
+  height: 100vh;
+}
+
+.left_content {
+  flex: 1;
+  background-color: #1C1D21;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right_content {
+  flex: 1;
+  background-color: #6A41E5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.form_content {
+  max-width: 500px;
+  width: 100%;
+  text-align: center;
+  padding: 50px 20px; /* Increase padding to increase height */
+  background-color: #2C2F33;
+  border-radius: 10px;
+}
+
+.form_content h1 {
+  font-size: 2.5rem; /* Adjust font size if needed */
+  color: #fff;
+  margin-bottom: 30px; /* Increase margin-bottom to increase spacing */
+}
+
+.form_content p {
+  font-size: 1.2rem; /* Adjust font size if needed */
+  color: #888;
+  margin-bottom: 30px; /* Increase margin-bottom to increase spacing */
+}
+
+.inputbox {
+  margin: 20px 0;
+  position: relative;
+}
+
+.inputbox input {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #444;
+  color: #fff;
+  font-size: 1.2rem; /* Adjust font size if needed */
+}
+
+.inputbox input::placeholder {
+  color: #ccc;
+}
+
+.login_btn {
+  width: 100%;
+  padding: 15px 200px;
+  border: none;
+  border-radius: 20px;
+  background-color: #6A41E5;
+  color: #fff;
+  font-size: 1.2rem; /* Adjust font size if needed */
+  cursor: pointer;
+
+
+  
+}
+
+.signup_btn{
+  width: 20%;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  background-color: #888;
+  color: #fff;
+  font-size: 1.2rem; /* Adjust font size if needed */
+  cursor: pointer;
+  margin-left: 10px;
+
+}
+
+.forgot-password-btn {
+  color: #888;
+  text-decoration: none;
+  font-size: 1.2rem; /* Adjust font size if needed */
+  margin-bottom: 20px; /* Increase margin-bottom to increase spacing */
+  margin-right: 310px;
+}
+
+.dontHaveAccount-btn {
+  margin-top: 40px;
+  color: #888;
+  font-size: 1.3rem; /* Adjust font size if needed */
+}
+
+.hero-content-words {
+  font-weight: 400;
+  font-size: 2rem; /* Adjust font size if needed */
+  margin-top: 20px;
+}
+
+.img_content img {
+  max-width: 100%;
+}
+
+
+
+
+
+
+
+
+.Loginpage{
+
+.left_content {
+  flex: 1; 
+  background-color : #1C1D21;
+
+  
+}
+
+.right_content {
+  flex: 1; 
+  background-color: #925FE2 ; 
+  
+}
+
+.form_content {
+  
+  color: white; 
+}
+
+
+
+.form-control::placeholder {
+  color: gray   !important;
+}
+
+
+
+
+.right_content h1{
+  white-space: nowrap;
+
+  font-size: 3.75rem;
+  font-weight: 200;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+
+
+.custom-container {
+  background-color: #1C1D21;
+  
+}
+
+
+.inputbox{
+  position: relative;
+  margin: 50px 0;
+  width: 300px;
+  border-bottom: 2px solid gray;
+}
+.inputbox input{
+  
+  width: 100%;
+  height: 50px;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 1em;
+  padding: 0 35px 0 5px;
+  color: #fff;
+}
+.inputbox .rounded-lg {
+  background-color:#b45151e0;
+  position: absolute;
+  margin-bottom: 20px;
+  bottom: -72px; 
+  left: 0;
+  right: 0;
+  width: 70%;
+  height: 75%;
+  font-size: 15px;
+}
+.forgetting{
+margin-top: 80px;
+}
+.login_btn {
+  margin-top: 50px !important; 
+  width: 200px !important;
+  height: 27px;
+}
+.custom-bg-color {
+  background-color: #9c6fe4 !important;
+
+  
+}
+
+.forgot-password-btn {
+  margin-right: 150px;
+  color: gray ;
+}
+
+.customSignUp-bg-color {
+  background-color: #333437 !important;
+
+}
+.dontHaveAccount-btn{
+  margin-top: 50px !important;
+  color: gray;
+}
+.signup_btn{
+  margin-left: 15px;
+  font-size: 0.8rem !important;
+  padding: 5px 8px !important;
+  width: 80px;
+  height: 45px;
+}
+.login-heading{
+  margin-bottom: 50px;
+}
+
+
+
+.hero-content-words{
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  font-weight: 400;
+  transition: 0.3 ease;
+  animation: changewidth 7s 1s infinite;
+}
+.hero-content-words::after{
+content: 'Student';
+animation: changeword 7s 1s ease infinite;
+}
+
+
+@keyframes changewidth {
+
+0%,30%,60%,100%{
+    width: 100%;
+    padding-right: 8px;
+}
+15%,45%,75%{
+    width: 0%;
+    padding-right: 0px;
+}
+}
+@keyframes changeword {
+0%,99%,100%{
+    content: 'Student';
+    color: violet;
+}
+40%{
+    content: 'Instructor';
+}
+60%{
+    content: 'TA';
+}
+
+
+}
+}
+
+
+
+import React, { useState, useEffect } from 'react';
+import axios from 'axios';
+import { Link } from 'react-router-dom';
+import '../../Tailwind/tailwind.css';
+import { Helmet } from 'react-helmet';
+import UHimg from '../../../Assets/images/unihub.png'
+const Home = () => {
+    
+    const [courses, setCourses] = useState([]);
+    const [userData, setUserData] = useState(null); // State to hold user data
+    const [query, setQuery] = useState('');
+    const [suggestions, setSuggestions] = useState([]);
+
+    useEffect(() => {
+        const fetchUserData = () => {
+            const userDataFromLocalStorage = localStorage.getItem('userData');
+            if (userDataFromLocalStorage) {
+                const parsedUserData = JSON.parse(userDataFromLocalStorage);
+                setUserData(parsedUserData);
+            }
+        };
+
+        const fetchCourses = async () => {
+            try {
+                const response = await axios.get('http://127.0.0.1:4000/courses');
+                setCourses(response.data);
+            } catch (error) {
+                console.error('Error fetching courses:', error);
+            }
+        };
+
+        fetchUserData();
+        fetchCourses();
+    }, []);
+
+    useEffect(() => {
+        if (query) {
+            const fetchSuggestions = async () => {
+                try {
+                    const response = await axios.get('http://127.0.0.1:4000/courses/search', {
+                        params: { name: query }
+                    });
+                    setSuggestions(response.data.courses);
+                } catch (error) {
+                    console.error('Error fetching suggestions:', error);
+                }
+            };
+
+            fetchSuggestions();
+        } else {
+            setSuggestions([]);
+        }
+    }, [query]);
+
+    const handleInputChange = (event) => {
+        setQuery(event.target.value);
+    };
+
+    const clearInput = () => {
+        setQuery('');
+        setSuggestions([]);
+    };
+
+    const limitedCourses = courses.slice(0, 5);
+    
+    return (
+
+        
+        <div>
+            <Helmet>
+                <meta charSet="utf-8" />
+                <title>Home</title>
+            </Helmet>
+
+        <aside class="group/sidebar flex flex-col shrink-0 lg:w-[300px] w-[250px] transition-all duration-300 ease-in-out -translate-x-full lg:translate-x-0 m-0 fixed z-40 inset-y-0 left-0 lg:bg-light/30 bg-light border-r border-r-dashed border-r-neutral-200 sidenav fixed-start loopple-fixed-start" id="sidenav-main">
+        <div class="h-full bg-neutral-900">
+            <div class="flex shrink-0 px-8 items-center justify-between h-[96px]">
+                <a class="transition-colors duration-200 ease-in-out" href="javascript:void(0)">
+                    <img  alt="Logo" src={UHimg} class="inline w-16 mt-4"/>
+                
+                </a>
+                <div class="relative ml-5 group">
+                    <a href="javascript:void(0)" class="lg:hidden flex" onclick="(function(){document.querySelector('.group\\/sidebar').classList.toggle('-translate-x-full');})();">
+                        <span class="p-0 m-0 -mr-1 leading-none shrink-0 rounded-[.195rem] text-secondary-dark  group-hover:text-primary group-[.open]:text-primary">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path>
+                            </svg>
+                        </span>
+                    </a>
+                </div>
+            </div>
+            <div class="hidden border-b border-dashed lg:block border-neutral-700/70"></div>
+            <div class="flex items-center justify-between px-8 py-5">
+                <div class="flex items-center mr-5">
+                    <div class="mr-5">
+                        <div class="inline-block relative shrink-0 cursor-pointer rounded-xl">
+                            <img class="w-[40px] h-[40px] shrink-0 inline-block rounded-xl" src="https://raw.githubusercontent.com/Loopple/loopple-public-assets/main/riva-dashboard-tailwind/img/avatars/avatar1.jpg" alt="avatar image" />
+                        </div>
+                    </div>
+                    <div class="mr-2 ">
+                        <a href="javascript:void(0)" class="dark:hover:text-primary hover:text-primary transition-colors duration-200 ease-in-out text-[1.075rem] font-medium  dark:text-neutral-400/90 text-white/90 hover:text-white" >Michael Joshe</a>
+                        <span class="text-secondary-dark dark:text-muted font-medium block text-[0.85rem]">SEO Course Trainer</span>
+                    </div>
+                </div>
+                <a class="inline-flex relative items-center group justify-end text-base font-medium leading-normal text-center align-middle cursor-pointer rounded-xl transition-colors duration-150 ease-in-out text-dark bg-transparent shadow-none border-0" href="javascript:void(0)">
+                    <span class="leading-none transition-colors duration-200 ease-in-out peer shrink-0 group-hover:text-white text-secondary-dark">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M9.594 3.94c.09-.542.56-.94 1.11-.94h2.593c.55 0 1.02.398 1.11.94l.213 1.281c.063.374.313.686.645.87.074.04.147.083.22.127.324.196.72.257 1.075.124l1.217-.456a1.125 1.125 0 011.37.49l1.296 2.247a1.125 1.125 0 01-.26 1.431l-1.003.827c-.293.24-.438.613-.431.992a6.759 6.759 0 010 .255c-.007.378.138.75.43.99l1.005.828c.424.35.534.954.26 1.43l-1.298 2.247a1.125 1.125 0 01-1.369.491l-1.217-.456c-.355-.133-.75-.072-1.076.124a6.57 6.57 0 01-.22.128c-.331.183-.581.495-.644.869l-.213 1.28c-.09.543-.56.941-1.11.941h-2.594c-.55 0-1.02-.398-1.11-.94l-.213-1.281c-.062-.374-.312-.686-.644-.87a6.52 6.52 0 01-.22-.127c-.325-.196-.72-.257-1.076-.124l-1.217.456a1.125 1.125 0 01-1.369-.49l-1.297-2.247a1.125 1.125 0 01.26-1.431l1.004-.827c.292-.24.437-.613.43-.992a6.932 6.932 0 010-.255c.007-.378-.138-.75-.43-.99l-1.004-.828a1.125 1.125 0 01-.26-1.43l1.297-2.247a1.125 1.125 0 011.37-.491l1.216.456c.356.133.751.072 1.076-.124.072-.044.146-.087.22-.128.332-.183.582-.495.644-.869l.214-1.281z"></path>
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                        </svg>
+                    </span>
+                </a>
+            </div>
+            <div class="hidden border-b border-dashed lg:block border-neutral-700/70"></div>
+            <div class="relative pl-3 overflow-y-scroll">
+                <div class="flex flex-col w-full font-medium">
+                    {/* <!-- menu item --> */}
+                    <div>
+                        <span class="select-none flex items-center px-4 py-3 cursor-pointer my-[.4rem] rounded-xl">
+                            <a href="javascript:;" class="flex items-center flex-grow text-[1.15rem] dark:text-neutral-400/75 text-muted hover:text-white">Profile</a>
+                        </span>
+                    </div>
+                    {/* <!-- menu item --> */}
+                    <div>
+                        <span class="select-none flex items-center px-4 py-3 cursor-pointer my-[.4rem] rounded-xl">
+                            <a href="javascript:;" class="flex items-center flex-grow text-[1.15rem] dark:text-neutral-400/75 text-muted hover:text-white">Calendar</a>
+                        </span>
+                    </div>
+                    {/* <!-- menu item --> */}
+                    <div>
+                        <span class="select-none flex items-center px-4 py-3 cursor-pointer my-[.4rem] rounded-xl">
+                            <a href="javascript:;" class="flex items-center flex-grow text-[1.15rem] dark:text-neutral-400/75 text-muted hover:text-white">Settings</a>
+                        </span>
+                    </div>
+                    {/* <!-- menu item --> */}
+                    <div class="block pt-5 pb-[.15rem]">
+                        <div class="px-4 py-[.65rem]">
+                            <span class="font-semibold text-[0.95rem] uppercase dark:text-neutral-500/80 text-white/90">More</span>
+                        </div>
+                    </div>
+                    {/* <!-- menu item --> */}
+                    <div>
+                        <span class="select-none flex items-center px-4 py-3 cursor-pointer my-[.4rem] rounded-xl">
+                            <a href="javascript:;" class="flex items-center flex-grow text-[1.15rem] dark:text-neutral-400/75 text-muted hover:text-white">Activity</a>
+                        </span>
+                    </div>
+                    {/* <!-- menu item --> */}
+                    <div>
+                        <span class="select-none flex items-center px-4 py-3 cursor-pointer my-[.4rem] rounded-xl">
+                            <Link to={'/Addtask'} class="flex items-center flex-grow text-[1.15rem] dark:text-neutral-400/75 text-muted hover:text-white">Add Tasks</Link>
+                        </span>
+                    </div>
+                    {/* <!-- menu item --> */}
+                    <div>
+                        <span class="select-none flex items-center px-4 py-3 cursor-pointer my-[.4rem] rounded-xl">
+                            <a href="javascript:;" class="flex items-center flex-grow text-[1.15rem] dark:text-neutral-400/75 text-muted hover:text-white">Account</a>
+                        </span>
+                    </div>
+                    {/* <!-- menu item --> */}
+                    <div>
+                        <span class="select-none flex items-center px-4 py-3 cursor-pointer my-[.4rem] rounded-xl">
+                            <a href="javascript:;" class="flex items-center flex-grow text-[1.15rem] dark:text-neutral-400/75 text-muted hover:text-white">Log Out</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </aside>
+    <div class="lg:ml-[300px] relative h-full max-h-screen rounded-xl transition-all duration-200 bg-white" id="panel">
+        <nav class="flex h-28 mb-5 lg:h-[96px]" id="navbarTop" navbar-scroll="true">
+            <div class="sm:flex items-stretch justify-between grow lg:mb-0 mb-5 py-5 px-10">
+                <div class="flex flex-col flex-wrap justify-center mb-5 mr-3 lg:mb-0">
+                    <span class="my-0 flex text-dark font-semibold text-[1.35rem]/[1.2] flex-col justify-center">Courses</span>
+                    <span class="pt-1 text-secondary-dark text-[0.95rem] font-medium">Check all available courses</span>
+                </div>
+                <div class="flex items-center lg:shrink-0 lg:flex-nowrap">
+                    <div class="relative flex items-center lg:ml-4 sm:mr-0 mr-2">
+                        <span class="absolute ml-4 leading-none -translate-y-1/2 top-1/2 text-muted">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"></path>
+                            </svg>
+                        </span>
+                        
+                        <input
+        className="block w-full py-3 pl-12 pr-4 text-base font-medium leading-normal bg-white border border-solid outline-none appearance-none placeholder:text-secondary-dark peer text-stone-500 border-stone-200 bg-clip-padding rounded-2xl"
+        placeholder="Search..."
+        type="text"
+        value={query}
+        onChange={handleInputChange}
+      />    
+                    <span onClick={clearInput} className="absolute right-0 left-auto mr-4 leading-none -translate-y-1/2 peer-placeholder-shown:hidden top-1/2 hover:text-primary text-muted">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-6 h-6">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path>
+        </svg>
+      </span>
+      {suggestions.length > 0 && (
+        <ul className="absolute w-full bg-white border border-stone-200 rounded-lg shadow-lg mt-2">
+          {suggestions.map((course) => (
+            <li key={course.id} className="py-2 px-4 hover:bg-gray-100 cursor-pointer">
+              {course.courseName}
+            </li>
+          ))}
+        </ul>
+      )}    
+                    </div>
+                    
+                    <div class="relative lg:hidden flex items-center sm:ml-2 ml-auto">
+                        <a href="javascript:void(0)" class="flex items-center justify-center w-12 h-12 text-base font-medium leading-normal text-center align-middle transition-colors duration-150 ease-in-out bg-transparent border border-solid shadow-none cursor-pointer rounded-2xl text-stone-500 border-stone-200 hover:text-primary active:text-primary focus:text-primary" onclick="(function(){document.querySelector('.group\\/sidebar').classList.toggle('-translate-x-full');})();">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"></path>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="relative flex items-center ml-2 lg:ml-4">
+                        <a href="javascript:void(0)" class="flex items-center justify-center w-12 h-12 text-base font-medium leading-normal text-center align-middle transition-colors duration-150 ease-in-out bg-transparent border border-solid shadow-none cursor-pointer rounded-2xl text-stone-500 border-stone-200 hover:text-primary active:text-primary focus:text-primary ">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M9.594 3.94c.09-.542.56-.94 1.11-.94h2.593c.55 0 1.02.398 1.11.94l.213 1.281c.063.374.313.686.645.87.074.04.147.083.22.127.324.196.72.257 1.075.124l1.217-.456a1.125 1.125 0 011.37.49l1.296 2.247a1.125 1.125 0 01-.26 1.431l-1.003.827c-.293.24-.438.613-.431.992a6.759 6.759 0 010 .255c-.007.378.138.75.43.99l1.005.828c.424.35.534.954.26 1.43l-1.298 2.247a1.125 1.125 0 01-1.369.491l-1.217-.456c-.355-.133-.75-.072-1.076.124a6.57 6.57 0 01-.22.128c-.331.183-.581.495-.644.869l-.213 1.28c-.09.543-.56.941-1.11.941h-2.594c-.55 0-1.02-.398-1.11-.94l-.213-1.281c-.062-.374-.312-.686-.644-.87a6.52 6.52 0 01-.22-.127c-.325-.196-.72-.257-1.076-.124l-1.217.456a1.125 1.125 0 01-1.369-.49l-1.297-2.247a1.125 1.125 0 01.26-1.431l1.004-.827c.292-.24.437-.613.43-.992a6.932 6.932 0 010-.255c.007-.378-.138-.75-.43-.99l-1.004-.828a1.125 1.125 0 01-.26-1.43l1.297-2.247a1.125 1.125 0 011.37-.491l1.216.456c.356.133.751.072 1.076-.124.072-.044.146-.087.22-.128.332-.183.582-.495.644-.869l.214-1.281z"></path>
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="relative flex items-center ml-2 lg:ml-4">
+                        <a href="javascript:void(0)" class="flex items-center justify-center w-12 h-12 text-base font-medium leading-normal text-center align-middle transition-colors duration-150 ease-in-out bg-transparent border border-solid shadow-none cursor-pointer rounded-2xl text-stone-500 border-stone-200 hover:text-primary active:text-primary focus:text-primary ">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M14.857 17.082a23.848 23.848 0 005.454-1.31A8.967 8.967 0 0118 9.75v-.7V9A6 6 0 006 9v.75a8.967 8.967 0 01-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 01-5.714 0m5.714 0a3 3 0 11-5.714 0M3.124 7.5A8.969 8.969 0 015.292 3m13.416 0a8.969 8.969 0 012.168 4.5"></path>
+                            </svg>
+                            <div class="absolute justify-center w-5 h-5 text-base font-semibold leading-normal text-center text-white text-sm align-middle transition-colors duration-150 ease-in-out shadow-none cursor-pointer rounded-xl bg-primary hover:bg-primary-dark active:bg-primary-dark focus:bg-primary-dark top-0 right-0 -me-1 -mt-2">
+                                <span class="text-sm">6</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="w-full px-10 py-6 mx-auto loopple-min-height-78vh text-slate-500">
+            <div class="flex flex-wrap -mx-3 mb-5 removable">
+                <div class="w-full max-w-full px-3 mb-6 lg:w-8/12 sm:flex-none xl:mb-0">
+                    <div class="relative flex flex-col break-words min-w-0 bg-clip-border rounded-xl bg-neutral-900 mb-5">
+                        {/* <!-- card body  --> */}
+                        <div class="flex-auto block py-8 px-9">
+                            <div class="m-0 z-20 relative">
+                                <div class="relative z-20 text-3xl font-semibold text-white w-3/4">
+
+                                        Hello {userData && userData[0].firstName} !
+
+                                </div>
+                                <p class="mb-7 text-white">We are happy to see you again.</p>
+                                <div class="flex flex-col gap-2 xl:gap-4 sm:flex-row">
+                                    <a href="javascript:void(0)" class="shrink-0 inline-block text-base font-medium leading-normal text-center align-middle cursor-pointer rounded-[.95rem] transition-colors duration-150 ease-in-out text-dark bg-white border-white shadow-none [border:_0]  px-5 py-3.5 hover:bg-white/90 active:bg-white focus:bg-white
+                ">All Courses</a>
+                                    <a href="javascript:void(0)" class="inline-block shrink-0 text-base font-medium leading-normal text-center align-middle cursor-pointer rounded-[.95rem] transition-colors duration-150 ease-in-out text-white bg-white/[.15] shadow-none [border:_0]  px-5 py-3.5 hover:bg-white/25 active:bg-white/25 focus:bg-white/25
+                ">My Courses</a>
+                                </div>
+                            </div>
+                            <img src="https://raw.githubusercontent.com/Loopple/loopple-public-assets/main/riva-dashboard-tailwind/img/bonus.png" class="bottom-0 absolute mr-3 end-0 h-[200px] opacity-40 z-10" alt="" />
+                        </div>
+                    </div>
+                    <h3 class="font-bold mb-4 text-2xl">Courses</h3>
+                    <div class="relative flex flex-col min-w-0 break-words border border-dashed bg-clip-border rounded-2xl border-stone-200 bg-light/30 mb-5">
+                        {/* <!-- card header --> */}
+                        <div class="px-9 pt-5 flex justify-between items-stretch flex-wrap min-h-[70px] pb-0 bg-transparent">
+                            <h3 class="flex flex-col items-start justify-center m-2 ml-0 font-medium text-xl/tight text-dark">
+                                <span class="mr-3 font-semibold text-dark">All Courses</span>
+                                <span class="mt-1 font-medium text-secondary-dark text-lg/normal">Check some of available courses</span>
+                            </h3>
+                            
+                        </div>
+                        {/* <!-- end card header --> */}
+                        {/* <!-- card body  --> */}
+                        <div className="flex-auto block py-8 pt-6 px-9">
+            <div className="overflow-x-auto">
+                <table className="w-full my-0 align-middle text-dark border-neutral-200">
+                    <thead className="align-bottom">
+                        <tr className="font-semibold text-[0.95rem] text-secondary-dark">
+                            <th className="pb-3 text-start min-w-[175px]">COURSE</th>
+                            <th className="pb-3 text-end min-w-[100px]">OWNER</th>
+                            <th className="pb-3 text-end min-w-[100px]">DURATION</th>
+                            <th className="pb-3 pr-12 text-end min-w-[175px]">STATUS</th>
+                            <th className="pb-3 pr-12 text-end min-w-[100px]">DEADLINE</th>
+                            <th className="pb-3 text-end min-w-[50px]">DETAILS</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {limitedCourses.map((course, index) => (
+                            <tr key={index} className="border-b border-dashed last:border-b-0">
+                                <td className="p-3 pl-0">
+                                    <div className="flex items-center">
+                                        <div className="relative inline-block shrink-0 rounded-2xl me-3">
+                                            <img src={course.image} className="w-[50px] h-[50px] inline-block shrink-0 rounded-2xl" alt="" />
+                                        </div>
+                                        <div className="flex flex-col justify-start">
+                                            <a href="javascript:void(0)" className="mb-1 font-semibold transition-colors duration-200 ease-in-out text-lg/normal text-secondary-inverse hover:text-primary">
+                                                {course.courseName}
+                                            </a>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td className="p-3 pr-0 text-end">
+                                    <span className="font-semibold text-light-inverse text-md/normal">{course.instructorId}</span>
+                                </td>
+                                <td className="p-3 pr-0 text-end">
+                                    <span className="text-center align-baseline inline-flex px-2 py-1 mr-auto items-center font-semibold text-base/none text-success bg-success-light rounded-lg">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-5 h-5 mr-1">
+                                            <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                        </svg>{course.duration}
+                                    </span>
+                                </td>
+                                <td className="p-3 pr-12 text-end">
+                                    <span className={`text-center align-baseline inline-flex px-4 py-3 mr-auto items-center font-semibold text-[.95rem] leading-none rounded-lg ${course.status === 'In Progress' ? 'text-primary bg-primary-light' : course.status === 'Done' ? 'text-success bg-success-light' : 'text-warning bg-warning-light'}`}>
+                                        {course.status}
+                                    </span>
+                                </td>
+                                <td className="pr-0 text-start">
+                                    <span className="font-semibold text-light-inverse text-md/normal">{course.deadline}</span>
+                                </td>
+                                <td className="p-3 pr-0 text-end">
+                                    <Link to={'/CourseInfo'}>
+                                    <button className="ml-auto relative text-secondary-dark bg-light-dark hover:text-primary flex items-center h-[25px] w-[25px] text-base font-medium leading-normal text-center align-middle cursor-pointer rounded-2xl transition-colors duration-200 ease-in-out shadow-none border-0 justify-center">
+                                        <span className="flex items-center justify-center p-0 m-0 leading-none shrink-0 ">
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-4 h-4">
+                                                <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5"></path>
+                                            </svg>
+                                        </span>
+                                    </button>
+                                    </Link>
+                                </td>
+                            </tr>
+                        ))}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+                    </div>
+                </div>
+                <div class="w-full max-w-full px-3 mb-6 lg:w-4/12 sm:flex-none xl:mb-0">
+                    <div class="relative flex flex-col min-w-0 break-words bg-gray-100 border-0 bg-clip-border rounded-2xl mb-5">
+                        {/* <!-- card header --> */}
+                        <div class="px-9 pt-5 flex justify-between items-stretch flex-wrap min-h-[70px] pb-0 bg-transparent">
+                            <div class="flex flex-col items-start justify-center m-2 ml-0 font-medium text-xl/normal text-dark">
+                                {/* <!--begin::Amount--> */}
+                                <span class="text-dark text-5xl/none font-semibold mr-2 tracking-[-0.115rem]">11</span>
+                                {/* <!--end::Amount--> */}
+
+                                {/* <!--begin::Subtitle--> */}
+                                <span class="pt-1 font-medium text-dark text-lg/normal">Courses Completed</span>
+                                {/* <!--end::Subtitle--> */}
+                            </div>
+                        </div>
+                        {/* <!-- card body  --> */}
+                        <div class="flex items-end flex-auto py-8 pt-0 px-9 ">
+                            {/* <!--begin::Progress--> */}
+                            <div class="flex flex-col items-center w-full mt-3">
+                                <div class="flex justify-between w-full mt-auto mb-2 font-semibold text-dark text-lg/normal">
+                                    <span class="mr-4 text-dark">15 Pending</span>
+                                    <span>85%</span>
+                                </div>
+
+                                <div class="mx-3 rounded-2xl h-[8px] w-full bg-white">
+                                    <div class="rounded-2xl bg-dark w-[85%] h-[8px]"></div>
+                                </div>
+                            </div>
+                            {/* <!--end::Progress--> */}
+                        </div>
+                        {/* <!-- end card body  --> */}
+                    </div>
+                    {/* <!-- end card body  --> */}
+                    <h3 class="font-bold mb-5 text-2xl">Activity</h3>
+                    <div class="relative flex flex-col min-w-0 break-words border border-dashed bg-clip-border rounded-2xl border-stone-200 bg-light/30 mb-5">
+
+
+                        {/* <!-- card body  --> */}
+                        <div class="flex-auto block py-8 pt-6 px-9">
+                            <div class="relative before:content-[''] before:absolute before:left-[51px] before:w-[3px] before:inset-y-0 before:bg-light-dark">
+
+                                <div class="relative flex items-start mb-7">
+
+                                    <div class="block relative shrink-0 w-[50px] text-secondary-inverse font-semibold text-md/normal before:absolute before:content-[''] before:left-[51px] before:w-[3px] before:inset-y-0 before:bg-light-dark">09:15</div>
+
+                                    <div class="shrink-0 bg-white w-4 h-4 rounded-full flex items-center justify-center relative z-10 mt-px -ml-2 p-[3px] border-[6px] border-solid border-white">
+                                        <i class="fa fa-circle text-dark text-md/normal"></i>
+                                    </div>
+
+                                    <div class="text-stone-500 font-medium pl-3 text-[0.95rem]">Completed API Course</div>
+                                </div>
+
+                                <div class="relative flex items-center mb-7">
+                                    {/* <!--begin::Label--> */}
+                                    <div class="block relative shrink-0 w-[50px] text-secondary-inverse font-semibold text-md/normal before:absolute before:content-[''] before:left-[51px] before:w-[3px] before:inset-y-0 before:bg-light-dark">12:30</div>
+                                    {/* <!--end::Label--> */}
+
+                                    {/* <!--begin::Badge--> */}
+                                    <div class="shrink-0 bg-white w-4 h-4 rounded-full flex items-center justify-center relative z-10 mt-px -ml-2 p-[3px] border-[6px] border-solid border-white">
+                                        <i class="fa fa-circle text-danger text-md/normal"></i>
+                                    </div>
+                                    {/* <!--end::Badge--> */}
+
+                                    {/* <!--begin::Content--> */}
+                                    <div class="flex items-center">
+                                        <span class="px-3 font-semibold text-warning">Lunch break</span>
+                                    </div>
+                                    {/* <!--end::Content--> */}
+                                </div>
+
+                                <div class="relative flex items-center mb-7">
+                                    {/* <!--begin::Label--> */}
+                                    <div class="block relative shrink-0 w-[50px] text-secondary-inverse font-semibold text-md/normal before:absolute before:content-[''] before:left-[51px] before:w-[3px] before:inset-y-0 before:bg-light-dark">15:45</div>
+                                    {/* <!--end::Label--> */}
+
+                                    {/* <!--begin::Badge--> */}
+                                    <div class="shrink-0 bg-white w-4 h-4 rounded-full flex items-center justify-center relative z-10 mt-px -ml-2 p-[3px] border-[6px] border-solid border-white">
+                                        <i class="fa fa-circle text-info text-md/normal"></i>
+                                    </div>
+                                    {/* <!--end::Badge--> */}
+
+                                    {/* <!--begin::Content--> */}
+                                    <div class="px-3 font-semibold text-secondary-inverse grow">
+                                        Preview Course
+                                        <a class="text-primary" href="javascript:void(0)">New XYZ</a>
+                                    </div>
+                                    {/* <!--end::Content--> */}
+                                </div>
+
+                                <div class="relative flex items-start mb-7">
+
+                                    <div class="block relative shrink-0 w-[50px] text-secondary-inverse font-semibold text-md/normal before:absolute before:content-[''] before:left-[51px] before:w-[3px] before:inset-y-0 before:bg-light-dark">17:30</div>
+
+                                    <div class="shrink-0 bg-white w-4 h-4 rounded-full flex items-center justify-center relative z-10 mt-px -ml-2 p-[3px] border-[6px] border-solid border-white">
+                                        <i class="fa fa-circle text-primary text-md/normal"></i>
+                                    </div>
+
+                                    <div class="text-stone-500 font-medium pl-3 text-[0.95rem]">Start Course 3</div>
+                                </div>
+
+                                <div class="relative flex items-center mb-7">
+                                    {/* <!--begin::Label--> */}
+                                    <div class="block relative shrink-0 w-[50px] text-secondary-inverse font-semibold text-md/normal before:absolute before:content-[''] before:left-[51px] before:w-[3px] before:inset-y-0 before:bg-light-dark">20:15</div>
+                                    {/* <!--end::Label--> */}
+
+                                    {/* <!--begin::Badge--> */}
+                                    <div class="shrink-0 bg-white w-4 h-4 rounded-full flex items-center justify-center relative z-10 mt-px -ml-2 p-[3px] border-[6px] border-solid border-white">
+                                        <i class="fa fa-circle text-dark text-md/normal"></i>
+                                    </div>
+                                    {/* <!--end::Badge--> */}
+
+                                    {/* <!--begin::Content--> */}
+                                    <div class="px-3 font-medium text-secondary-inverse grow">
+                                        Feedback for
+                                        <a class="text-primary" href="javascript:void(0)">Course ABC</a>
+                                    </div>
+                                    {/* <!--end::Content--> */}
+                                </div>
+
+                                <div class="relative flex items-start mb-7">
+
+                                    <div class="block relative shrink-0 w-[50px] text-secondary-inverse font-semibold text-md/normal before:absolute before:content-[''] before:left-[51px] before:w-[3px] before:inset-y-0 before:bg-light-dark">22:00</div>
+
+                                    <div class="shrink-0 bg-white w-4 h-4 rounded-full flex items-center justify-center relative z-10 mt-px -ml-2 p-[3px] border-[6px] border-solid border-white">
+                                        <i class="fa fa-circle text-info text-md/normal"></i>
+                                    </div>
+
+                                    <div class="text-stone-500 font-medium pl-3 text-[0.95rem]">Plan next week's courses</div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                        {/* <!-- end card body  --> */}
+                    </div>
+                    <div class="relative flex flex-col min-w-0 break-words border border-dashed bg-clip-border rounded-2xl border-stone-200 bg-light/30">
+                        {/* <!-- card header --> */}
+                        <div class="px-9 pt-5 flex justify-between items-stretch flex-wrap min-h-[70px] pb-0 bg-transparent">
+                            <div class="flex flex-col m-2 ml-0 ">
+                                {/* <!--begin::Amount--> */}
+                                <span class="text-5xl/none tracking-[-0.115rem] font-semibold text-dark mr-2">529</span>
+                                {/* <!--end::Amount--> */}
+                                {/* <!--begin::Subtitle--> */}
+                                <span class="pt-1 font-medium text-secondary-dark text-lg/normal">Atendees</span>
+                                {/* <!--end::Subtitle--> */}
+                            </div>
+                        </div>
+                        {/* <!-- card body  --> */}
+                        <div class="flex flex-col justify-between flex-auto py-8 px-9">
+                            <span class="block mb-2 font-bold text-lg/normal text-secondary-inverse">Top Performers</span>
+                            <div class="flex flex-wrap items-center ml-[10px]">
+                                {/* <!--begin::User--> */}
+                                <div class="group inline-block rounded-full relative z-0 hover:z-10 -ml-[10px] transition-all duration-300 ease-in-out cursor-pointer shrink-0" data-bs-toggle="tooltip" aria-label="Emma Smith" data-kt-initialized="1" data-original-title="" title="">
+                                    <img alt="Pic" class="w-[35px] h-[35px] rounded-full inline-block shrink-0 border-2 border-white/50" src="https://raw.githubusercontent.com/Loopple/loopple-public-assets/main/riva-dashboard-tailwind/img/avatars/avatar1.jpg" />
+                                    <span class="absolute z-10 self-center hidden px-4 py-3 mb-2 text-sm text-center transform -translate-x-1/2 bg-white shadow-sm whitespace-nowrap rounded-2xl left-1/2 bottom-full text-dark group-hover:block"> Alex Kenzie </span>
+                                </div>
+                                {/* <!--begin::User--> */}
+                                <div class="group inline-block rounded-full relative z-0 hover:z-10 -ml-[10px] transition-all duration-300 ease-in-out cursor-pointer shrink-0" data-bs-toggle="tooltip" aria-label="Rudy Stone" data-kt-initialized="1" data-original-title="" title="">
+                                    <img alt="Pic" class="w-[35px] h-[35px] rounded-full inline-block shrink-0 border-2 border-white/50" src="https://raw.githubusercontent.com/Loopple/loopple-public-assets/main/riva-dashboard-tailwind/img/avatars/avatar2.jpg" />
+                                    <span class="absolute z-10 self-center hidden px-4 py-3 mb-2 text-sm text-center transform -translate-x-1/2 bg-white shadow-sm whitespace-nowrap rounded-2xl left-1/2 bottom-full text-dark group-hover:block"> Roberta Mikolo </span>
+                                </div>
+                                <div class="group inline-block rounded-full relative z-0 hover:z-10 -ml-[10px] transition-all duration-300 ease-in-out cursor-pointer shrink-0" data-bs-toggle="tooltip" data-kt-initialized="1" data-original-title="" title="">
+                                    <span class="relative flex items-center justify-center text-sm font-semibold bg-info text-white border-2 border-white/50 w-[35px] h-[35px] rounded-full shrink-0">S</span>
+                                    <span class="absolute z-10 self-center hidden px-4 py-3 mb-2 text-sm text-center transform -translate-x-1/2 bg-white shadow-sm whitespace-nowrap rounded-2xl left-1/2 bottom-full text-dark group-hover:block"> Sima Lucas </span>
+                                </div>
+                                <div class="group inline-block rounded-full relative z-0 hover:z-10 -ml-[10px] transition-all duration-300 ease-in-out cursor-pointer shrink-0" data-bs-toggle="tooltip" aria-label="Rudy Stone" data-kt-initialized="1" data-original-title="" title="">
+                                    <img alt="Pic" class="w-[35px] h-[35px] rounded-full inline-block shrink-0 border-2 border-white/50" src="https://raw.githubusercontent.com/Loopple/loopple-public-assets/main/riva-dashboard-tailwind/img/avatars/avatar3.jpg" />
+                                    <span class="absolute z-10 self-center hidden px-4 py-3 mb-2 text-sm text-center transform -translate-x-1/2 bg-white shadow-sm whitespace-nowrap rounded-2xl left-1/2 bottom-full text-dark group-hover:block"> Bianca Ornos </span>
+                                </div>
+                                {/* <!--begin::User--> */}
+                                {/* <!--begin::User--> */}
+                                <div class="group inline-block rounded-full relative z-0 hover:z-10 -ml-[10px] transition-all duration-300 ease-in-out cursor-pointer shrink-0" data-bs-toggle="tooltip" data-kt-initialized="1" data-original-title="" title="">
+                                    <span class="relative flex items-center justify-center text-sm font-semibold bg-dark text-secondary border-2 border-white/50 w-[35px] h-[35px] rounded-full shrink-0">+9</span>
+                                    <span class="absolute z-10 self-center hidden px-4 py-3 mb-2 text-sm text-center transform -translate-x-1/2 bg-white shadow-sm whitespace-nowrap rounded-2xl left-1/2 bottom-full text-dark group-hover:block"> +9 others </span>
+                                </div>
+                                {/* <!--begin::User--> */}
+                            </div>
+                        </div>
+                        {/* <!-- end card body  --> */}
+                    </div>
+                </div>
+            </div>
+        </div>
+        {/* <!-- Footer --> */}
+        <footer class="flex items-stretch">
+            <div class="px-10 flex w-full flex-col md:flex-row py-3 items-center justify-center md:justify-between">
+                <div class="order-2 text-dark md:order-1">
+                    <span class="mr-1 font-medium text-muted">
+                        2024
+                    </span>
+                    <a href="javascript:;" target="_blank" class="transition-colors duration-200 ease-in-out text-secondary-inverse hover:text-primary">UniHub</a>
+                </div>
+                <ul class="flex order-1 p-0 m-0 font-medium">
+                    <li class="block py-[.15rem]">
+                        <a href="javascript:;" target="_blank" class="flex items-center px-2 cursor-pointer text-light-inverse flex-[0_0_100%] py-[.65rem] outline-none">Home</a>
+                    </li>
+                    <li class="block py-[.15rem]">
+                        <a href="javascript:;" target="_blank" class="flex items-center px-2 cursor-pointer text-light-inverse flex-[0_0_100%] py-[.65rem] outline-none">Contact Us</a>
+                    </li>
+                    <li class="block py-[.15rem]">
+                        <a href="javascript:;" target="_blank" class="flex items-center px-2 cursor-pointer text-light-inverse flex-[0_0_100%] py-[.65rem] outline-none">Terms &amp; Conditions</a>
+                    </li>
+                    <li class="block py-[.15rem]">
+                        <a href="javascript:;" target="_blank" class="flex items-center px-2 cursor-pointer text-light-inverse flex-[0_0_100%] py-[.65rem] outline-none">Privacy Policy</a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+
+
+    <div className="loopple-badge">Made with <a href="https://www.loopple.com"><img src="https://www.loopple.com/img/loopple-logo.png" className="loopple-ml-1" style={{ width: '55px' }} alt="Loopple Logo" /></a></div>
+           
+
+    </div>
+
+
+    );
+}
+
+export default Home;

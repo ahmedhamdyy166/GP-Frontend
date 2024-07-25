@@ -1,0 +1,17 @@
+.rightContentMaterials{
+
+    padding-left: 7%;
+    padding-top: 2%;
+}
+
+
+.materialimage{
+   height: 100px;
+   padding-top: 10%;
+}
+
+.refmaterialimage{
+    height: 200px;
+    background-color: rgba(169, 169, 169, 0.486);
+}
+

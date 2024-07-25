@@ -1,0 +1,31 @@
+
+
+.lll{
+    margin-left: 290px;
+    width: 70%;
+    height: 95%;
+    padding: 150px;
+    padding-top: 250px;
+    border-radius: 10px;
+    background-color: #2C2F33;
+
+}
+.taskcoloring{
+    background-color: rgba(128, 128, 128, 0.473);
+    color: #fff;
+}
+.taskcoloring{
+    background-color: rgba(128, 128, 128, 0.473);
+    color: #fff;
+}
+.kk{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ensure the container takes full viewport height */    
+}
+.mm{
+    width: 50%;
+    margin-left: 250px;
+}
+

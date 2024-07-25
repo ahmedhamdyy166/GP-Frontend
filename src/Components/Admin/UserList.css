@@ -1,0 +1,23 @@
+.widthoflist{
+    width: 1200px;
+    
+    margin-left: 315px;
+}
+.usersmgn{
+    margin-left: 700px;
+}
+.wala{
+    font-size: 20px;
+}
+.fenak{
+    background-color: rgba(0, 0, 255, 0.833);
+}
+.userlistbtn{
+    background-color: red;
+}
+.bodyofuserlist{
+    overflow-x: hidden;
+}
+.mahmoud{
+    margin-top: 100px;
+}

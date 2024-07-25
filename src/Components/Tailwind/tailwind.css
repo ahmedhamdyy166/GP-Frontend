@@ -1,0 +1,18 @@
+@import 'tailwindcss/base';
+
+@import 'tailwindcss/components';
+
+@import 'tailwindcss/utilities';
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Inter');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
+@import url('https://cdn.jsdelivr.net/gh/Loopple/loopple-public-assets@main/riva-dashboard-tailwind/css/plugins/choices.css');
+@import url('https://cdn.jsdelivr.net/gh/Loopple/loopple-public-assets@main/riva-dashboard-tailwind/css/plugins/datatable.css');
+@import url('https://cdn.jsdelivr.net/gh/Loopple/loopple-public-assets@main/riva-dashboard-tailwind/css/plugins/daterangepicker.css');
+@import url('https://github.com/Loopple/loopple-public-assets/blob/main/riva-dashboard-tailwind/css/plugins/flatpickr.css');
+@import url('https://cdn.jsdelivr.net/gh/Loopple/loopple-public-assets@main/riva-dashboard-tailwind/css/plugins/paginate.css');
+@import url('https://cdn.jsdelivr.net/gh/Loopple/loopple-public-assets@main/riva-dashboard-tailwind/css/plugins/jsvectormap.min.css');
+
+ @import url('../Tailwind/theme.css'); 
+/* 
+@import url('../../Assets/css/loopple/loopple.css'); */
